@@ -5,12 +5,10 @@
     font-family: 'poppins', sans-serif;
 
 }
-
 body {
     color: #ededed;
     background: #0a1126;
 }
-
 .header {
     position: fixed;
     top: 0;
@@ -23,7 +21,6 @@ body {
     align-items: center;
     z-index: 100;
 }
-
 .logo {
     position: relative;
     font-size: 25px;
@@ -34,7 +31,6 @@ body {
     opacity: 0;
     animation: slideRight 1s ease forwards;
 }
-
 .navbar a {
     display: inline-block;
     font-size: 25px;
@@ -47,12 +43,10 @@ body {
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
-
 .navbar a:hover {
     color: #0ef;
 
 }
-
 .home {
     position: relative;
     width: 100%;
@@ -65,11 +59,9 @@ body {
     align-items: center;
     padding: 70px 10% 0;
 }
-
 .home-content {
     max-width: 600px;
 }
-
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
@@ -77,17 +69,14 @@ body {
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
 }
-
 .home-content h3:nth-of-type(2) {
     margin-bottom: 30px;
     animation: slideTop 1s ease forwards;
     animation-delay: .7s;
 }
-
 .home-content h3 span {
     color: #0ef;
 }
-
 .home-content h1 {
     font-size: 56px;
     font-weight: 700;
@@ -97,7 +86,6 @@ body {
     animation-delay: 1s;
 
 }
-
 .home-content p {
     font-size: 20px;
     font-weight: 700;
@@ -107,7 +95,6 @@ body {
     animation-delay: 1s;
 
 }
-
 .home-sci a {
     display: inline-flex;
     justify-content: center;
@@ -126,13 +113,11 @@ body {
     animation-delay: calc(.2s * var(--i));
     margin: 30px 15px 30px 0;
 }
-
 .home-sci a:hover {
     background: #0ef;
     color: #081b29;
     box-shadow: 0 0 20px #0ef;
 }
-
 .btn-box {
     display: inline-block;
     padding: 12px 20px;
@@ -148,7 +133,6 @@ body {
     animation-delay: 2s;
     box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
 }
-
 .btn-box:hover {
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan,
@@ -156,14 +140,12 @@ body {
         0 0 100px cyan,
         0 0 200px cyan
 }
-
 .about{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     align-items: center;
     gap: 1.5rem;
 }
-
 .about-img img{
     padding-bottom: 20%;
     max-width: 630px;
@@ -177,7 +159,6 @@ body {
 .about-text h2 span{
     color: #0ef;
 }
-
 .about-text h4{
    font-size: 29px;
    font-weight: 600;
@@ -185,39 +166,32 @@ body {
    line-height: 1.7;
    margin: 15px 0 30px;
 }
-
 .about-text p{
     color: aliceblue;
     font-size:20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-
-
 #services{
     color:aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-
 .sub-title{
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
 }
-
 .sub-title span {
     color: #0ef;
 }
-
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
-
 .services-list div{
     background-color: transparent;
     padding: 40px;
@@ -229,18 +203,15 @@ body {
     box-shadow: 1px 1px 20px #012290f7,
                 1px 1px 30px #0053b8f7;
 }
-
 .services-list div i{
     font-size: 50px;
     margin-bottom: 30px;
 }
-
 .services-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-
 .services-list div a{
     text-decoration: none;
     color:#000;
@@ -248,7 +219,6 @@ body {
     margin-top: 20px;
     display: inline-block;
 }
-
 .read{
     display: inline-block;
     padding: 12px 28px;
@@ -266,7 +236,6 @@ body {
     0 0 25px #0ef;
 
 }
-
 .read:hover{
     box-shadow: 0 0 5px cyan,
         0 0 25px cyan,
@@ -274,17 +243,15 @@ body {
         0 0 100px cyan,
         0 0 200px cyan
 }
-
 .services-list div:hover{
     transform: translateY(-10px);
 }
-
 .container{
     padding: 90px;
 
 }
 
-.section{
+section{
     display: flex;
     flex-wrap: wrap;
 }
@@ -293,44 +260,35 @@ body {
     height:500px;
     padding: 75px 90px ;
     margin-left: 120px;
-
 }
 .heading1{
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
-    text-decoration-thickness:5px ;
+    text-decoration-thickness: 5px;
     margin-bottom: 50px;
 }
-
 .bar{
     font-size: 23px;
 }
-
-.Technical-bars .bar{
+.Technical-bars .bar {
     margin-top: 40px 0;
 }
-
 .Technical-bars .bar:first-child{
     margin-top: 0;
 }
-
 .Technical-bars .bar:last-child{
     margin-bottom: 0;
 }
-
 .Technical-bars .bar .info{
     margin-bottom: 5px;
 }
-
-
 .Technical-bars .bar .info span{
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity:0;
 }
-
 .Technical-bars .bar .progress-line{
     position: relative;
     border-radius: 10px;
@@ -338,23 +296,22 @@ body {
     height: 5px;
     background-color: #000000;
     animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
+    transform: scaleX(1);
     transform-origin: left;
+    margin-bottom: 20px;
 }
-
 @keyframes animate{
     100%{
         transform: scaleX(1);
     }
 }
-
-.Technical-bars .bar .progress-line span{
+.Technical-bars .bar .progress-line span {
     height :100%;
     background-color: #0ef;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
+    transform: scaleX(1);
     transform-origin: left;
 }
 
@@ -362,10 +319,21 @@ body {
     width:90%;
 }
 
-.progress-line.html span{
-    width:90%;
+.progress-line.css span{
+    width:60%;
 }
 
+.progress-line.java span{
+    width:60%;
+}
+
+.progress-line.javascript span{
+    width:60%;
+}
+
+.progress-line.python span{
+    width:60%;
+}
 
 
 
