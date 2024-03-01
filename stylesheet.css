@@ -179,7 +179,7 @@ body {
 }
 
 .about-text h4{
-   size: 29px;
+   font-size: 29px;
    font-weight: 600;
    color: #fff;
    line-height: 1.7;
@@ -194,7 +194,7 @@ body {
 }
 
 
-.services{
+#services{
     color:aliceblue;
     font-size: 20px;
     line-height: 1.4;
@@ -211,7 +211,7 @@ body {
     color: #0ef;
 }
 
-.services-list{
+.services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(259px,1fr));
     grid-gap: 40px;
@@ -225,25 +225,25 @@ body {
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
-    transition: background 0.5s,transform  0.5s;
+    transition: background 0.5s,transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
-    1px 1px 30px #0053b8f7 ;
+                1px 1px 30px #0053b8f7;
 }
 
 .services-list div i{
-    font-size: 50x;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
 .services-list div h2{
-    font-size: 30x;
+    font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
 .services-list div a{
     text-decoration: none;
-    color:#2f2f2f;
+    color:#000;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -254,7 +254,7 @@ body {
     padding: 12px 28px;
     background: #0ef;
     border-radius: 40px;
-    font-size: 14px;
+    font-size: 16px;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
@@ -262,7 +262,8 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+    box-shadow: 0 0 5px #0ef, 
+    0 0 25px #0ef;
 
 }
 
@@ -323,7 +324,6 @@ body {
 }
 
 
-
 .Technical-bars .bar .info span{
     font-size: 17px;
     font-weight: 500;
@@ -360,7 +360,10 @@ body {
 
 .progress-line.html span{
     width:90%;
+}
 
+.progress-line.html span{
+    width:90%;
 }
 
 
